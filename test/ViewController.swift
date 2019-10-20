@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     @IBAction func mailEditChanged(_ sender: UITextField) {
         
-        sender.text = self.mailText
+        self.mailText = sender.text
         self.validate()
         
     }
