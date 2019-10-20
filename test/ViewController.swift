@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     
     @IBAction func passwordEditChanged(_ sender: UITextField) {
         
-        sender.text = self.passwordText
+        self.passwordText = sender.text
         self.validate()
         
     }
